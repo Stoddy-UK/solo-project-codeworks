@@ -16,6 +16,9 @@ app.use('/', router);
 //TODO: move PORT to .env file
 const PORT = 3001;
 
+//TODO: Refactor to Atlas
+//TODO: Refactor to Atlas
+
 app.listen(PORT, () => {
   console.log(`Server is running on port http://localhost:${PORT}`);
 });
