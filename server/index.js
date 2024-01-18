@@ -5,7 +5,7 @@ const router = require('./router');
 
 
 const app = express();
-
+// TODO: remove bodyParser for the express
 app.use(bodyParser.json());
 
 
