@@ -5,6 +5,12 @@ const { clientId, clientSecret, redirectUri } = require('../secret');
 
 const router = Router();
 
+
+// TODO createUser route to controller
+
+// TODO login route
+
+
 let cachedToken;
 
 router.get('/api/spotify-credentials', async (req, res, next) => {

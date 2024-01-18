@@ -10,6 +10,7 @@ export function Routes() {
   theme.colors.background = colors.gray[700];
 
   return (
+    // TODO global state provider
     <Box flex={1} bg="gray.700">
       <NavigationContainer theme={theme}>
         <AppRoutes />
