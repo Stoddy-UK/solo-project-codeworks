@@ -20,18 +20,13 @@ export default function App() {
   return (
     <NativeBaseProvider theme={THEME}>
       <ArtistProvider>
-
-
         <StatusBar
           barStyle='light-content'
           backgroundColor='transparent'
           translucent
         />
         {fontsLoaded ? <Routes /> : <Loading /> }
-
-
       </ArtistProvider>
-
     </NativeBaseProvider>
   );
 }
